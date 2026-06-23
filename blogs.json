@@ -1,0 +1,81 @@
+{
+  "blogs": [
+    {
+      "_id": "6a33802b5c9b7244ffd33e70",
+      "title": "developer",
+      "description": "developer is best of the part of career and last stregy is best and largest and focus industry",
+      "category": "Tech",
+      "author": "manish",
+      "image": "https://res.cloudinary.com/dqz5z3tun/image/upload/v1782226859/manish_devloper_j7iysp.jpg",
+      "createdAt": "2026-06-18T05:20:43.672Z",
+      "updatedAt": "2026-06-23T15:06:11.850Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a3a582d9179d119fa177df0",
+      "title": "Test Blog",
+      "description": "Test description for the blog",
+      "category": "Tech",
+      "author": "Elone musk's",
+      "image": "https://res.cloudinary.com/dqz5z3tun/image/upload/v1782226860/Elone_musks_g5g7fz.webp",
+      "createdAt": "2026-06-23T09:55:57.129Z",
+      "updatedAt": "2026-06-23T15:05:32.788Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a3a5a659179d119fa177df1",
+      "title": "Fast food",
+      "description": "Food enthusiast and culinary storyteller dedicated to discovering amazing flavors, hidden food gems, and inspiring recipes that bring people together.",
+      "category": "Food",
+      "author": "olivia",
+      "image": "https://res.cloudinary.com/dqz5z3tun/image/upload/v1782226863/fast_food_kzzg9h.webp",
+      "createdAt": "2026-06-23T10:05:25.284Z",
+      "updatedAt": "2026-06-23T15:02:39.922Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a3a5b5e9179d119fa177df2",
+      "title": "Journey of hill for sea in nature",
+      "description": "🌿 Nature\n\nNature lover capturing the beauty of landscapes, wildlife, and the outdoors. Sharing stories that inspire exploration, mindfulness, and a deeper connection with the natural world.",
+      "category": "Lifestyle",
+      "author": "keshv mann",
+      "image": "https://res.cloudinary.com/dqz5z3tun/image/upload/v1782226860/life_style_jcxpc7.jpg",
+      "createdAt": "2026-06-23T10:09:34.032Z",
+      "updatedAt": "2026-06-23T15:05:10.890Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a3a5be59179d119fa177df3",
+      "title": "Forex trade ",
+      "description": "📈 Forex Trading\n\nForex trader and market analyst focused on currency markets, price action, risk management, and trading strategies. Sharing insights, market trends, and lessons from the world of global finance.",
+      "category": "Business",
+      "author": "MK birla",
+      "image": "https://res.cloudinary.com/dqz5z3tun/image/upload/v1782226861/Mk_birla_vqrtsb.webp",
+      "createdAt": "2026-06-23T10:11:49.878Z",
+      "updatedAt": "2026-06-23T15:03:51.208Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a3a5c569179d119fa177df4",
+      "title": "A travel of journey germany ",
+      "description": "🇩🇪 Germany Travel\n\nExploring Germany's rich history, stunning landscapes, vibrant cities, and cultural treasures. Sharing travel experiences, local insights, hidden gems, and unforgettable adventures across the heart of Europe.",
+      "category": "Travel",
+      "author": "DVS",
+      "image": "https://res.cloudinary.com/dqz5z3tun/image/upload/v1782226861/Germany_nchjvf.jpg",
+      "createdAt": "2026-06-23T10:13:42.657Z",
+      "updatedAt": "2026-06-23T15:04:23.996Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a3a5d039179d119fa177df5",
+      "title": "Fashion",
+      "description": "✨ Fashion & Style\n\nExploring the world of fashion through timeless elegance, streetwear trends, and everyday style inspiration. Helping you stay fashionable and confident for every occasion.",
+      "category": "Other",
+      "author": "Robbert hoof",
+      "image": "https://res.cloudinary.com/dqz5z3tun/image/upload/v1782226861/robbert_hoof_qsfha7.jpg",
+      "createdAt": "2026-06-23T10:16:35.167Z",
+      "updatedAt": "2026-06-23T15:03:20.750Z",
+      "__v": 0
+    }
+  ]
+}

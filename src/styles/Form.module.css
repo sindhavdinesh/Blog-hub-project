@@ -1,0 +1,244 @@
+.formContainer {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px;
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.formTitle {
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  background: linear-gradient(135deg, var(--text-primary), var(--accent-purple));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.formSubtitle {
+  color: var(--text-secondary);
+  margin-bottom: 32px;
+  font-size: 1rem;
+}
+
+.formGroup {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  display: flex;
+  justify-content: space-between;
+}
+
+.input,
+.textarea,
+.select {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 12px 16px;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.input:focus,
+.textarea:focus,
+.select:focus {
+  outline: none;
+  border-color: #4facfe;
+  box-shadow: 0 0 10px rgba(79, 172, 254, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+
+.select {
+  cursor: pointer;
+}
+
+.select option {
+  background: #030305;
+  color: #ffffff;
+}
+
+/* File Upload Box */
+.uploadBox {
+  border: 2px dashed var(--border-glass);
+  border-radius: 12px;
+  padding: 32px 20px;
+  text-align: center;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.01);
+  transition: var(--transition-smooth);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.uploadBox:hover {
+  border-color: var(--accent-cyan);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.uploadIcon {
+  color: var(--accent-cyan);
+}
+
+.fileInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.uploadPlaceholder {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.uploadTextStrong {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+/* Image Preview Block */
+.previewContainer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  min-height: 180px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border-glass);
+  margin-top: 8px;
+}
+
+.previewImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+
+.removeImageBtn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(11, 15, 25, 0.85);
+  color: var(--accent-pink);
+  border: 1px solid var(--border-glass);
+  padding: 8px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-smooth);
+  z-index: 10;
+}
+
+.removeImageBtn:hover {
+  background: var(--aurora-2);
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Image Mode Toggle & URL Input */
+.toggleGroup {
+  display: flex;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 100px;
+  padding: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.toggleBtn {
+  background: transparent;
+  color: var(--text-dim);
+  border: none;
+  padding: 6px 16px;
+  border-radius: 100px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.activeToggle {
+  background: var(--aurora-1);
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(79, 172, 254, 0.3);
+}
+
+.urlInputWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.urlIcon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-dim);
+  z-index: 2;
+  margin-top: -6px;
+}
+
+/* Error States */
+.errorText {
+  color: #ff5858;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+.inputError {
+  border-color: #ff5858 !important;
+}
+
+/* Form Actions */
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+/* Spinner Loader */
+.spinner {
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border-left-color: var(--accent-cyan);
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
