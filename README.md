@@ -40,14 +40,13 @@
 </div>
 
 ---
-
 ## 🎥 Demo & Repository
 
 <div align="center">
 
 | 🚀 Resource | 🔗 Link |
 |:---:|:---:|
-| 🎥 **Live Demo Video** | [https://drive.google.com/file/d/1HCQyU0RFySg8tNzIWPsbp79WDb0T9aIh/view?usp=sharing) |
+| 🎥 **Live Demo Video** | [▶️ Watch Walkthrough](https://drive.google.com/file/d/1HCQyU0RFySg8tNzIWPsbp79WDb0T9aIh/view?usp=sharing) |
 | 💻 **Source Code** | [GitHub Repository](https://github.com/sindhavdinesh/Blog-hub-project) |
 | 🌐 **Live Site** | [Visit BlogHub](#) |
 
