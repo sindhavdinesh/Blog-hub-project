@@ -1,279 +1,444 @@
-# BlogHub: Full-Stack Developer Blog Portal
+<div align="center">
 
-> A next-generation, high-performance, and visually stunning Full-Stack Blogging Platform. Designed with a premium tech-themed dark aesthetic, this application features a **Next.js (App Router)** client powered by **Redux Toolkit** for seamless state management, and a robust **Express.js & Node.js REST API** backed by **MongoDB & Mongoose** with automated connection resiliency, alongside **Cloudinary** integration for optimized cloud media delivery.
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0d0221&height=280&section=header&text=BlogHub&fontSize=100&fontColor=c084fc&animation=twinkling&fontAlignY=45&stroke=7c3aed&strokeWidth=3&desc=⚡%20Full-Stack%20Developer%20Blog%20Portal%20⚡&descAlignY=68&descSize=22&descColor=a78bfa" width="100%"/>
+
+<br/>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&pause=1000&color=C084FC&center=true&vCenter=true&width=800&height=55&lines=🚀+Next.js+16+%7C+Express.js+%7C+MongoDB+Atlas;☁️+Cloudinary+Media+Pipeline+Integration;🔴+Redux+Toolkit+Global+State+Management;⚡+Production-Ready+Full-Stack+Architecture;🎨+Glassmorphism+Dark+Premium+UI+Design" alt="Typing SVG" />
+</a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Next.js-16.2.9-black?style=for-the-badge&logo=next.js&logoColor=white&labelColor=0d0221"/>
+&nbsp;
+<img src="https://img.shields.io/badge/React-19.2.4-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=0d0221"/>
+&nbsp;
+<img src="https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=0d0221"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Cloudinary-CDN-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white&labelColor=0d0221"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Status-Production_Ready-c084fc?style=for-the-badge&labelColor=0d0221"/>
+&nbsp;
+<img src="https://img.shields.io/badge/License-MIT-7c3aed?style=for-the-badge&labelColor=0d0221"/>
+&nbsp;
+<img src="https://img.shields.io/github/stars/sindhavdinesh/Blog-hub-project?style=for-the-badge&color=c084fc&labelColor=0d0221&logo=github"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Made_with-❤️_by_Sindhav_Dinesh-a855f7?style=for-the-badge&labelColor=0d0221"/>
+
+</div>
 
 ---
 
-## 🎥 Demonstration & Repository
+<div align="center">
 
-| Resource | Link |
-|---|---|
-| 🎥 Live Demo Video | Watch Walkthrough *(Link your Video here)* |
-| 💻 Source Code | [GitHub Repository](https://github.com/sindhavdinesh/Blog-hub-project) |
+> **BlogHub** is a next-generation, high-performance, and visually stunning Full-Stack Blogging Platform.  
+> Designed with a premium tech-themed dark aesthetic — featuring **Next.js App Router**, **Redux Toolkit**, **Express.js REST API**, **MongoDB Atlas**, and **Cloudinary** CDN integration.
+
+</div>
+
+---
+
+## 🎥 Demo & Repository
+
+<div align="center">
+
+| 🚀 Resource | 🔗 Link |
+|:---:|:---:|
+| 🎥 **Live Demo Video** | [▶️ Watch Walkthrough](#) |
+| 💻 **Source Code** | [GitHub Repository](https://github.com/sindhavdinesh/Blog-hub-project) |
+| 🌐 **Live Site** | [Visit BlogHub](#) |
+
+</div>
 
 ---
 
 ## 📋 Table of Contents
 
-- [About the Project](#-about-the-project)
-- [Key Features](#-key-features)
-- [System Architecture](#️-system-architecture)
-- [Tech Stack](#️-tech-stack)
-- [Project Directory Structure](#-project-directory-structure)
-- [Installation & Local Setup](#-installation--local-setup)
-- [API Reference Endpoints](#-api-reference-endpoints)
-- [Key Functionalities Checklist](#-key-functionalities-checklist)
-- [Engineering Concept Learnings](#-engineering-concept-learnings)
-- [Developer Contact](#-developer)
+<div align="center">
+
+| | |
+|:---|:---|
+| [🌟 About the Project](#-about-the-project) | [📁 Directory Structure](#-project-directory-structure) |
+| [🚀 Key Features](#-key-features) | [🔧 Installation & Setup](#-installation--local-setup) |
+| [⚙️ System Architecture](#️-system-architecture) | [📡 API Reference](#-api-reference-endpoints) |
+| [🛠️ Tech Stack](#️-tech-stack) | [🎯 Functionalities Checklist](#-key-functionalities-checklist) |
+| [📚 Engineering Learnings](#-engineering-concept-learnings) | [👨‍💻 Developer](#-developer) |
+
+</div>
 
 ---
 
 ## 🌟 About the Project
 
-**BlogHub** is a production-ready, full-stack blogging system engineered for modern web speeds and absolute reliability. Unlike basic front-end setups, BlogHub integrates a dedicated custom backend server with persistent storage.
+```bash
+$ cat about.json
+```
 
-### Core Design Philosophy
+```json
+{
+  "project": "BlogHub",
+  "type": "Full-Stack Web Application",
+  "status": "Production Ready ✅",
+  "frontend": "Next.js 16 + Redux Toolkit",
+  "backend": "Express.js + Node.js REST API",
+  "database": "MongoDB Atlas + Mongoose",
+  "media": "Cloudinary CDN",
+  "ui_theme": "Glassmorphism Dark Premium",
+  "architecture": "Client-Server Decoupled"
+}
+```
 
-- **User Experience First:** Utilizing smooth micro-animations, glassmorphism UI elements, and a responsive layout that adapts to mobile, tablet, and desktop viewports.
-- **Visual Continuity:** Avoids layout shifts (CLS) by utilizing modern CSS properties like `aspect-ratio` on all dynamic image grids and cover views.
-- **Data Integrity:** Equipped with fully client-side and server-side model validation, and resilient MongoDB Atlas reconnection logic that handles network drops gracefully.
+### 🧠 Core Design Philosophy
+
+<div align="center">
+
+| 🎯 Principle | 💡 Implementation |
+|:---|:---|
+| **User Experience First** | Smooth micro-animations, glassmorphism UI, fully responsive mobile → desktop layout |
+| **Visual Continuity** | Avoids CLS using `aspect-ratio` on all dynamic image grids and cover views |
+| **Data Integrity** | Client-side + server-side validation with resilient MongoDB Atlas auto-reconnect logic |
+
+</div>
 
 ---
 
 ## 🚀 Key Features
 
-### 📂 Advanced Blog CRUD Operations
-- **Create:** Fully-validated forms with cover image upload support, auto-generating blog metadata.
-- **Read:** Rich single-page layouts displaying blog content, author details, formatting-preserved text, tags, and category info.
-- **Update:** Pre-populated editing interfaces that update the UI instantly upon database write confirmation.
-- **Delete:** Secure deletion with instant state synchronization in Redux Store.
+<details>
+<summary><b>📂 Advanced Blog CRUD Operations</b></summary>
+<br/>
 
-### 🔍 Real-Time Search & Filtering
-- **Instant Keyword Search:** Fast client-side searching matching keywords in blog titles and descriptions.
-- **Dynamic Category Tabs:** Instantly filter posts between different categories *(Tech, Lifestyle, Business, Travel, Food, Other)*.
-- **Multi-Criteria Sorting:**
+- ✅ **Create** — Fully-validated forms with cover image upload, auto-generating blog metadata
+- ✅ **Read** — Rich single-page layouts with author details, formatted content, tags & category info
+- ✅ **Update** — Pre-populated editing interfaces with instant UI refresh on DB write confirmation
+- ✅ **Delete** — Secure deletion with instant Redux Store state synchronization
+
+</details>
+
+<details>
+<summary><b>🔍 Real-Time Search & Filtering</b></summary>
+<br/>
+
+- ⚡ **Instant Keyword Search** — Fast client-side matching in blog titles and descriptions
+- 🗂️ **Dynamic Category Tabs** — Filter between `Tech` · `Lifestyle` · `Business` · `Travel` · `Food` · `Other`
+- 🔀 **Multi-Criteria Sorting:**
   - 🆕 Newest First *(Default)*
   - 🕰️ Oldest First
   - 🔤 Alphabetical A–Z
   - 🔡 Reverse Alphabetical Z–A
 
-### ☁️ Cloudinary Media Pipeline
-- Drag-and-drop or select an image file to upload it directly to **Cloudinary Media Cloud**.
-- Secure URLs are stored in MongoDB.
-- Interactive real-time image preview container before posting/updating.
+</details>
 
-### 🛠️ Robust Database Connector
-- Mongoose connection setup with built-in custom DNS fallback servers (`8.8.8.8`).
-- Handles server selection timeouts and automatically reconnects in intervals without crashing the Node.js server.
+<details>
+<summary><b>☁️ Cloudinary Media Pipeline</b></summary>
+<br/>
+
+- 📤 Drag-and-drop or select image to upload directly to **Cloudinary Media Cloud**
+- 🔐 Secure CDN URLs stored in MongoDB
+- 🖼️ Real-time image preview before posting or updating
+
+</details>
+
+<details>
+<summary><b>🛡️ Robust Database Connector</b></summary>
+<br/>
+
+- 🌐 Mongoose connection with custom DNS fallback servers (`8.8.8.8`)
+- 🔁 Handles timeouts and auto-reconnects without crashing the Node.js server
+- 🎧 Custom `on('disconnected')` and `on('error')` event listeners
+
+</details>
 
 ---
 
 ## ⚙️ System Architecture
 
 ```
-┌────────────────┐          HTTP Request          ┌─────────────────┐
-│                ├───────────────────────────────>│                 │
-│  Next.js App   │        Redux Async Thunk       │  Express Server │
-│   (Port 3000)  │                                │   (Port 5000)   │
-│                │<───────────────────────────────┤                 │
-└──────┬─────────┘          JSON Response         └────────┬────────┘
-       │                                                   │
-       │ Manage State                                      ├───────────────> Cloudinary API
-       ▼                                                   │ (Secure Image Uploads)
-┌──────────────┐                                           ▼
-│ Redux Store  │                                  ┌─────────────────┐
-│ (Global)     │                                  │  MongoDB Atlas  │
-└──────────────┘                                  │ (Data Store)    │
-                                                  └─────────────────┘
+┌─────────────────────────────────────────────────────────────────────┐
+│                         CLIENT LAYER                                │
+│                                                                     │
+│   ┌────────────────┐          HTTP/REST          ┌───────────────┐  │
+│   │                ├────────────────────────────>│               │  │
+│   │  Next.js App   │      Redux Async Thunk      │ Express REST  │  │
+│   │  (Port 3000)   │                             │ (Port  5000)  │  │
+│   │                │<────────────────────────────┤               │  │
+│   └──────┬─────────┘       JSON Response         └───────┬───────┘  │
+│          │                                               │           │
+│          │ useSelector                                   │           │
+│          ▼ useDispatch                                   │           │
+│   ┌──────────────┐                         ┌────────────▼──────────┐ │
+│   │ Redux Store  │                         │   Cloudinary API      │ │
+│   │  (Global)    │                         │  (Image CDN Upload)   │ │
+│   └──────────────┘                         └───────────────────────┘ │
+│                                                       │              │
+│                                            ┌──────────▼────────────┐ │
+│                                            │    MongoDB Atlas      │ │
+│                                            │    (Data Store)       │ │
+│                                            └───────────────────────┘ │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Frontend & Styling
+### 🎨 Frontend & Styling
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=nextjs,react,redux,tailwind,css&theme=dark"/>
 
 | Technology | Version | Purpose |
-|---|---|---|
-| **Next.js 16** | v16.2.9 | React framework leveraging App Router, Server Components, and Layout optimization. |
-| **React 19** | v19.2.4 | Component-based UI logic and state lifecycles. |
-| **Redux Toolkit** | v2.12.0 | Global state management to slice and sync blog data across components. |
-| **Tailwind CSS v4** | v4.0.0 | Next-gen utility-first styling for quick, consistent UI structure. |
-| **CSS Modules** | Native | Clean scoped styling for forms, home pages, and cards, avoiding class pollution. |
-| **Lucide React** | v1.20.0 | Lightweight and customizable vector icons. |
+|:---|:---:|:---|
+| **Next.js 16** | `v16.2.9` | App Router, Server Components, Layout optimization |
+| **React 19** | `v19.2.4` | Component UI logic and state lifecycles |
+| **Redux Toolkit** | `v2.12.0` | Global state management across all components |
+| **Tailwind CSS v4** | `v4.0.0` | Utility-first styling for rapid, consistent UI |
+| **CSS Modules** | Native | Scoped component styling, zero class pollution |
+| **Lucide React** | `v1.20.0` | Lightweight customizable vector icons |
 
-### Backend & Database
+</div>
+
+### ⚙️ Backend & Database
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,cloudinary&theme=dark"/>
 
 | Technology | Version | Purpose |
-|---|---|---|
-| **Node.js** | v18+ | Runtime environment for the backend server. |
-| **Express.js** | v4.19.2 | REST API framework handling CORS, JSON parsing, and server routing. |
-| **Mongoose** | v9.7.0 | Schema-based modeling and validation for MongoDB documents. |
-| **MongoDB Atlas** | Cloud | Cloud database service for storing posts, categories, and author details. |
-| **Cloudinary** | v2.10.0 | Image hosting, storage, and optimization CDN. |
-| **Multer** | v1.4.5 | Middleware for uploading image files to server memory. |
-| **Concurrently** | v8.2.2 | Runs both frontend client and backend Express server concurrently under a single port wrapper. |
+|:---|:---:|:---|
+| **Node.js** | `v18+` | Backend runtime environment |
+| **Express.js** | `v4.19.2` | REST API: CORS, JSON parsing, routing |
+| **Mongoose** | `v9.7.0` | Schema-based MongoDB document modeling |
+| **MongoDB Atlas** | Cloud | Cloud-hosted database for all blog data |
+| **Cloudinary** | `v2.10.0` | Image hosting, CDN delivery, optimization |
+| **Multer** | `v1.4.5` | Image file upload middleware |
+| **Concurrently** | `v8.2.2` | Runs frontend + backend together in one command |
+
+</div>
+
+### 🛠️ Dev Tools
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark"/>
+</div>
 
 ---
 
 ## 📁 Project Directory Structure
 
 ```
-blog-project/
-├── config/                   # Backend configurations
-│   ├── db.js                 # MongoDB connection and retry logic
-│   └── cloudinary.js         # Cloudinary SDK credentials
-├── models/                   # Database Schema Models
-│   └── Blog.js               # Mongoose Blog Schema and Validation rules
-├── routes/                   # Express REST API Routes
-│   ├── blogRoutes.js         # REST endpoints for Blog CRUD
-│   └── uploadRoutes.js       # Image upload controller
-├── public/                   # Static local assets (SVGs, icons)
-├── src/                      # Next.js Source Code
-│   ├── app/                  # App Router Layouts & Pages
-│   │   ├── blog/             # Dynamic Sub-pages
-│   │   │   ├── create/       # New Post Creation Page
-│   │   │   ├── edit/         # Edit Post Page
-│   │   │   └── [id]/         # Detailed Blog View
-│   │   ├── layout.js         # Main layout wrap
-│   │   ├── page.js           # Client-side home portal with filters
-│   │   └── StoreProvider.js  # Redux Toolkit global wrapper
-│   ├── Components/           # Modular & Reusable Components
-│   │   ├── BlogCard/         # Grid items & Featured Post banner
-│   │   ├── BlogDetails/      # Full post detail template
-│   │   ├── CreateBlogForm/   # Form validation for new posts
-│   │   ├── UpdatePostForm/   # Prefilled form update logic
-│   │   ├── Filtering/        # Interactive Search/Category/Sort panel
-│   │   └── Common/           # Navbar, Header components
-│   ├── redux/                # Global Redux State Setup
-│   │   ├── action/           # Async API Thunks
-│   │   ├── slice/            # State reducers (fetch, delete, create)
-│   │   └── store.js          # Configured Redux Store
-│   ├── styles/               # Glassmorphism theme CSS Modules
-│   │   ├── BlogDetail.module.css
-│   │   ├── Form.module.css
-│   │   └── Home.module.css
-│   └── utils/                # Client-side helpers
-│       └── validateForm.js   # Regex and required-field validators
-├── server.js                 # Express API entry point
-├── package.json              # Node scripts and dev dependencies
-└── .env                      # Environment secrets (Git ignored)
+📦 blog-project/
+│
+├── 🗂️  config/
+│   ├── 🔌 db.js                    # MongoDB connection + retry logic
+│   └── ☁️  cloudinary.js            # Cloudinary SDK credentials
+│
+├── 🗂️  models/
+│   └── 📄 Blog.js                  # Mongoose Blog Schema + Validation
+│
+├── 🗂️  routes/
+│   ├── 🔀 blogRoutes.js            # REST endpoints: Blog CRUD
+│   └── 📤 uploadRoutes.js          # Image upload controller
+│
+├── 🗂️  public/                     # Static assets (SVGs, icons)
+│
+├── 🗂️  src/
+│   ├── 🗂️  app/                    # App Router Layouts & Pages
+│   │   ├── 🗂️  blog/
+│   │   │   ├── 📝 create/          # New Post Creation Page
+│   │   │   ├── ✏️  edit/[id]/       # Edit Post Page
+│   │   │   └── 👁️  [id]/            # Detailed Blog View
+│   │   ├── 🏠 layout.js            # Root layout wrapper
+│   │   ├── 📋 page.js              # Home portal with filters
+│   │   └── 🔄 StoreProvider.js     # Redux global wrapper
+│   │
+│   ├── 🗂️  Components/
+│   │   ├── 🃏 BlogCard/            # Grid items & Featured banner
+│   │   ├── 📖 BlogDetails/         # Full post detail template
+│   │   ├── ➕ CreateBlogForm/      # New post form + validation
+│   │   ├── ✏️  UpdatePostForm/      # Prefilled edit form
+│   │   ├── 🔍 Filtering/           # Search / Category / Sort UI
+│   │   └── 🧩 Common/             # Header, Navbar
+│   │
+│   ├── 🗂️  redux/
+│   │   ├── ⚡ action/              # Async API Thunks
+│   │   ├── 🔪 slice/               # State reducers
+│   │   └── 🏪 store.js             # Redux Store config
+│   │
+│   ├── 🗂️  styles/
+│   │   ├── 🎨 BlogDetail.module.css
+│   │   ├── 🎨 Form.module.css
+│   │   └── 🎨 Home.module.css
+│   │
+│   └── 🗂️  utils/
+│       └── ✅ validateForm.js      # Regex + required-field validators
+│
+├── 🚀 server.js                    # Express API entry point
+├── 📦 package.json                 # Scripts + dependencies
+└── 🔒 .env                         # Environment secrets (Git ignored)
 ```
 
 ---
 
 ## 🔧 Installation & Local Setup
 
-Follow these simple steps to run this full-stack project locally:
+### Step 1 — Clone the Repository
 
-### 1. Clone the Repository
 ```bash
 git clone https://github.com/sindhavdinesh/Blog-hub-project.git
 cd Blog-hub-project
 ```
 
-### 2. Install Project Dependencies
-This installs both frontend client-side libraries and backend Express libraries:
+### Step 2 — Install Dependencies
+
 ```bash
 npm install
 ```
 
-### 3. Setup Environment Variables
-Create a `.env` file in the root folder of the project:
+### Step 3 — Configure Environment Variables
+
+Create a `.env` file in the root:
+
 ```env
-# Server
+# ── Server ──────────────────────────────
 PORT=5000
 
-# MongoDB Connection String (Atlas or Local)
+# ── MongoDB Atlas ────────────────────────
 MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/blogdb?retryWrites=true&w=majority
 
-# Cloudinary Credentials
-CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+# ── Cloudinary ───────────────────────────
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
 
-# Frontend Configuration
+# ── Frontend ─────────────────────────────
 NEXT_PUBLIC_API_URL=http://localhost:5000/api
 ```
 
-### 4. Launch the Dev Environment
-We run both servers concurrently using:
+### Step 4 — Launch Dev Environment
+
 ```bash
 npm run dev
 ```
 
-| Service | URL |
-|---|---|
-| 🌐 Frontend Web Client | http://localhost:3000 |
-| ⚙️ Backend REST API | http://localhost:5000 |
+<div align="center">
+
+| 🌐 Service | 🔗 URL |
+|:---:|:---:|
+| Frontend Client | `http://localhost:3000` |
+| Backend REST API | `http://localhost:5000` |
+
+</div>
 
 ---
 
 ## 📡 API Reference Endpoints
 
-All backend routes are exposed under `/api/*`:
+<div align="center">
 
-| Method | Endpoint | Description | Request Body |
-|---|---|---|---|
-| `GET` | `/api/blogs` | Retrieves all blog posts with search/sorting params | None |
-| `GET` | `/api/blogs/:id` | Retrieves a single blog post by its MongoDB ObjectId | None |
-| `POST` | `/api/blogs` | Inserts a new blog into the database | `{ title, description, category, author, image }` |
-| `PUT` | `/api/blogs/:id` | Modifies an existing blog post | `{ title, description, category, author, image }` |
-| `DELETE` | `/api/blogs/:id` | Permanently deletes a post | None |
-| `POST` | `/api/upload` | Uploads raw image file to Cloudinary | `multipart/form-data` with `image` key |
+All routes are prefixed with `/api/`
+
+| Method | Endpoint | Description | Body |
+|:---:|:---|:---|:---|
+| ![GET](https://img.shields.io/badge/GET-47A248?style=flat-square) | `/api/blogs` | Get all blog posts | — |
+| ![GET](https://img.shields.io/badge/GET-47A248?style=flat-square) | `/api/blogs/:id` | Get single blog by ID | — |
+| ![POST](https://img.shields.io/badge/POST-3448C5?style=flat-square) | `/api/blogs` | Create new blog post | `{ title, description, category, author, image }` |
+| ![PUT](https://img.shields.io/badge/PUT-f59e0b?style=flat-square) | `/api/blogs/:id` | Update existing blog | `{ title, description, category, author, image }` |
+| ![DELETE](https://img.shields.io/badge/DELETE-ef4444?style=flat-square) | `/api/blogs/:id` | Delete a blog post | — |
+| ![POST](https://img.shields.io/badge/POST-3448C5?style=flat-square) | `/api/upload` | Upload image to Cloudinary | `multipart/form-data` |
+
+</div>
 
 ---
 
 ## 🎯 Key Functionalities Checklist
 
-| Feature | Status | Technology Used |
-|---|---|---|
-| Full CRUD Cycle | ✅ Done | Express, Mongoose, Redux Thunks |
-| State Syncing | ✅ Done | Redux Toolkit slice architecture |
-| Robust Database Connection | ✅ Done | Mongoose reconnect listeners |
-| Real-time Title Search | ✅ Done | Redux Filter query parameters |
-| Category Categorization | ✅ Done | Interactive filter state handlers |
-| Custom Sorters | ✅ Done | MongoDB sort queries & JS local fallbacks |
-| Image Upload API | ✅ Done | Cloudinary Cloud & Multer memory storage |
-| Client Form Validation | ✅ Done | Helper utility functions |
-| Aspect Ratio Sizing | ✅ Done | CSS `aspect-ratio` properties |
+<div align="center">
+
+| Feature | Status | Technology |
+|:---|:---:|:---|
+| Full CRUD Cycle | ✅ | Express + Mongoose + Redux Thunks |
+| Global State Sync | ✅ | Redux Toolkit slice architecture |
+| Robust DB Connection | ✅ | Mongoose reconnect event listeners |
+| Real-time Search | ✅ | Redux filter + query parameters |
+| Category Filtering | ✅ | Interactive filter state handlers |
+| Multi-sort Options | ✅ | MongoDB sort + JS local fallbacks |
+| Cloud Image Upload | ✅ | Cloudinary + Multer memory storage |
+| Form Validation | ✅ | Client-side regex utility helpers |
+| Zero Layout Shift | ✅ | CSS `aspect-ratio` on all image wrappers |
+| GitHub Version Control | ✅ | Git + GitHub repository |
+
+</div>
 
 ---
 
 ## 📚 Engineering Concept Learnings
 
-Building this application provided deep practical experience in:
+```bash
+$ cat learnings.log
+```
 
-- **Next.js File Routing:** Leveraging the folder-based page structure (`app/blog/[id]/page.js`) for dynamic routing.
-- **Express & Next.js Integration:** Handling cross-origin requests (CORS) between `http://localhost:3000` (Frontend) and `http://localhost:5000` (Backend API).
-- **Robust Mongoose Connectivity:** Designing custom event listeners (`on('disconnected')`, `on('error')`) to prevent API server drops during minor internet connection hiccups.
-- **Global State Management:** Setting up slice states, async actions via Redux Thunk, and using `useSelector` and `useDispatch` hooks to maintain data consistency.
-- **Layout Stability & Styling:** Using `aspect-ratio` on image wrappers to allocate page dimensions beforehand, neutralizing layout shifts (CLS) for a premium responsive UI experience.
-- **Cloudinary Media Pipeline:** Converting file binaries to data chunks, routing them to CDN folders, and resolving them into optimized cloud URLs.
+```
+[1] Next.js File Routing        → app/blog/[id]/page.js dynamic folder-based routing
+[2] Express + CORS Integration  → Cross-origin setup: localhost:3000 ↔ localhost:5000
+[3] Mongoose Reconnection       → on('disconnected') + on('error') event listeners
+[4] Redux Global State          → Slice reducers + Async Thunks + useSelector/useDispatch
+[5] Layout Stability (CLS)      → aspect-ratio on image wrappers = zero layout shift
+[6] Cloudinary Pipeline         → Binary → Buffer → CDN URL stored in MongoDB
+```
 
 ---
 
 ## 👨‍💻 Developer
 
-**Sindhav Dinesh**
-*Full-Stack Developer / Frontend Engineer*
+<div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-sindhavdinesh-181717?style=for-the-badge&logo=github)](https://github.com/sindhavdinesh)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/sindhavdinesh)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-FF5722?style=for-the-badge&logo=google-chrome)](https://sindhavdinesh.dev)
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d0221&height=3&section=header" width="100%"/>
+
+<br/>
+
+**Sindhav Dinesh** · *Full-Stack Developer / Frontend Engineer*
+
+<br/>
+
+<a href="https://github.com/sindhavdinesh">
+  <img src="https://img.shields.io/badge/GitHub-sindhavdinesh-c084fc?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0221"/>
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/dinesh-sindhav-2081b8396">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d0221"/>
+</a>
+&nbsp;
+<a href="mailto:sindhavdinesh82@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d0221"/>
+</a>
+
+</div>
 
 ---
 
 ## ⭐ Support & Contributions
 
-If you like this project or find it helpful:
-
-- Give a ⭐ to this repository on GitHub.
-- Fork it and build your own customization.
-- Share it with your peers!
-
----
-
 <div align="center">
-  <strong>Made with ❤️ by Sindhav Dinesh</strong>
+
+If you find **BlogHub** helpful or inspiring:
+
+**⭐ Star this repo** — **🍴 Fork it** — **📢 Share it**
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0d0221&height=120&section=footer" width="100%"/>
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&pause=2000&color=7c3aed&center=true&vCenter=true&width=500&lines=⭐+Star+the+repo+if+you+found+it+useful!;🤝+Contributions+are+always+welcome;🔥+Built+with+passion+by+Sindhav+Dinesh" alt="Footer"/>
+
+<br/>
+
+**Made with ❤️ by [Sindhav Dinesh](https://github.com/sindhavdinesh)**
+
 </div>
