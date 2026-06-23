@@ -5,7 +5,7 @@
 <br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&pause=1000&color=C084FC&center=true&vCenter=true&width=800&height=55&lines=🚀+Next.js+16+%7C+Express.js+%7C+MongoDB+Atlas;☁️+Cloudinary+Media+Pipeline+Integration;🔴+Redux+Toolkit+Global+State+Management;⚡+Production-Ready+Full-Stack+Architecture;🎨+Glassmorphism+Dark+Premium+UI+Design" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&pause=1000&color=C084FC&center=true&vCenter=true&width=800&height=55&lines=%F0%9F%9A%80+Next.js+16+%7C+Express.js+%7C+MongoDB+Atlas;%E2%98%81%EF%B8%8F+Cloudinary+Media+Pipeline+Integration;%F0%9F%94%B4+Redux+Toolkit+Global+State+Management;%E2%9A%A1+Production-Ready+Full-Stack+Architecture;%F0%9F%8E%A8+Glassmorphism+Dark+Premium+UI+Design" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -435,7 +435,7 @@ If you find **BlogHub** helpful or inspiring:
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&pause=2000&color=7c3aed&center=true&vCenter=true&width=500&lines=⭐+Star+the+repo+if+you+found+it+useful!;🤝+Contributions+are+always+welcome;🔥+Built+with+passion+by+Sindhav+Dinesh" alt="Footer"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&pause=2000&color=7c3aed&center=true&vCenter=true&width=500&lines=%E2%AD%90+Star+the+repo+if+you+found+it+useful!;%F0%9F%A4%9D+Contributions+are+always+welcome;%F0%9F%94%A5+Built+with+passion+by+Sindhav+Dinesh" alt="Footer"/>
 
 <br/>
 
