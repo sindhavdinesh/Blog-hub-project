@@ -1,7 +1,6 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import connectDB from './config/db.js';
 import blogRoutes from './routes/blogRoutes.js';
 import uploadRoutes from './routes/uploadRoutes.js';
 
@@ -10,7 +9,6 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-connectDB();
 
 // Handle unhandled promise rejections and uncaught exceptions
 process.on('unhandledRejection', (reason, promise) => {
