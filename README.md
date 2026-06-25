@@ -215,6 +215,7 @@ $ cat about.json
 | **MongoDB Atlas** | Cloud | Cloud-hosted database for all blog data |
 | **Cloudinary** | `v2.10.0` | Image hosting, CDN delivery, optimization |
 | **Multer** | `v1.4.5` | Image file upload middleware |
+| **JSON Server** | `v1.0.0` | Mock REST API for local development and frontend testing |
 | **Concurrently** | `v8.2.2` | Runs frontend + backend together in one command |
 
 </div>
