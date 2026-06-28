@@ -36,7 +36,7 @@ export default function BlogDetail() {
       const resultAction = await dispatch(deleteBlog(id));
       if (deleteBlog.fulfilled.match(resultAction)) {
         alert('Blog post deleted successfully.');
-        router.push('/');
+        window.location.href = '/';
       } else {
         alert(resultAction.payload || 'Failed to delete blog.');
       }

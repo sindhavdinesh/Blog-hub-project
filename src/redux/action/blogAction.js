@@ -13,7 +13,9 @@ export const fetchBlogs = createAsyncThunk(
         page: params.page?.toString() || '1',
         limit: params.limit?.toString() || '6',
       });
-      const response = await fetch(`${apiUrl}/blogs?${queryParams}`);
+      const response = await fetch(`${apiUrl}/blogs?${queryParams}`, {
+        cache: 'no-store',
+      });
       const data = await response.json();
       if (!data.success) throw new Error(data.error);
       return data;
@@ -27,7 +29,9 @@ export const fetchBlogById = createAsyncThunk(
   'blogs/fetchBlogById',
   async (id, { rejectWithValue }) => {
     try {
-      const response = await fetch(`${apiUrl}/blogs/${id}`);
+      const response = await fetch(`${apiUrl}/blogs/${id}`, {
+        cache: 'no-store',
+      });
       const data = await response.json();
       if (!data.success) throw new Error(data.error);
       return data.blog;
