@@ -70,7 +70,7 @@ export default function UpdatePostForm() {
     formData.append('file', file);
 
     try {
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || '/api';
       const res = await fetch(`${apiUrl}/upload`, {
         method: 'POST',
         body: formData,

@@ -1,6 +1,6 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
-const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+const apiUrl = process.env.NEXT_PUBLIC_API_URL || '/api';
 
 export const fetchBlogs = createAsyncThunk(
   'blogs/fetchBlogs',
